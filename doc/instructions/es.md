@@ -192,7 +192,7 @@ Podrá seguir el estado de la entrega accediendo a la [página del desafío](htt
 
 Una semana después del inicio del desafío, nuestro sistema de evaluación automatizado iniciará las evaluaciones. Utilizará los datos para calcular una puntuación numérica del 1 al 100, basado en el nível de asertividad de las recomendaciones, junto con el nível de confianza de las mismas. El archivo `.zip` enviado debe contener todo el código utilizado para obtener la solución. De lo contrario, la puntuación será cero.
 
-Si el desafío se entrega dentro del plazo de envío (hasta el 21 de noviembre), el participante recibirá una bonificación del 10% de la puntuación total (10 puntos), independientemente del resultado de su desafío. Por tanto, la puntuación máxima posible es 110 (puntuación de 100 + bonificación de 10).
+Si el desafío se entrega dentro del plazo de envío (hasta el 05 de diciembre), el participante recibirá una bonificación del 10% de la puntuación total (10 puntos), independientemente del resultado de su desafío. Por tanto, la puntuación máxima posible es 110 (puntuación de 100 + bonificación de 10).
 
 Después del plazo de envío, el participante aún puede realizar su envío hasta el 12 de diciembre, pero sin recibir el bono.
 
