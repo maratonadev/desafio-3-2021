@@ -114,21 +114,26 @@ Os nomes de produtos nas recomendações devem aparecer da exata forma como est�
 
 ```python
 [
-  'Investimento Fundos_commodities',
-  'Investimento LCI',
-  'Investimento LCA',
-  'Investimento Poupanca',
-  'Investimento Fundos Multimercado',
-  'Investimento Tesouro Direto',
-  'Financiamento Casa',
-  'Financiamento Carro',
-  'Emprestimo _pessoal',
-  'Emprestimo _consignado',
-  'Emprestimo _limite_especial',
-  'Emprestimo _educacao',
-  'Emprestimo _viagem',
-  'Investimento CDB',
-  'Investimento Fundos'
+  "seguro auto",
+  "seguro vida Emp",
+  "seguro vida PF",
+  "Seguro Residencial",
+  "Investimento Fundos_cambiais",
+  "Investimento Fundos_commodities",
+  "Investimento LCI",
+  "Investimento LCA",
+  "Investimento Poupanca",
+  "Investimento Fundos Multimercado",
+  "Investimento Tesouro Direto",
+  "Financiamento Casa",
+  "Financiamento Carro",
+  "Emprestimo _pessoal",
+  "Emprestimo _consignado",
+  "Emprestimo _limite_especial",
+  "Emprestimo _educacao",
+  "Emprestimo _viagem",
+  "Investimento CDB",
+  "Investimento Fundos"
 ]
 ```
 
