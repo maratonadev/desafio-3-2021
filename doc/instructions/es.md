@@ -10,9 +10,9 @@
 - [3. Objetivo](#3-objetivo)
 - [4. Tecnologias aplicadas](#4-tecnologias-aplicadas)
 - [5. Desarrollo de la Solución](#5-desarrollo-de-la-solución)
-- [5.1. Pre-requisitos](#51-pre-requisitos)
-- [5.2. Resumen de Tareas](#52-resumen-de-tareas)
-- [5.3. Desarollo](#53-desarollo)
+  - [5.1. Pre-requisitos](#51-pre-requisitos)
+  - [5.2. Resumen de Tareas](#52-resumen-de-tareas)
+  - [5.3. Desarollo](#53-desarollo)
 - [6. Envío](#6-envío)
 - [7. Sobre la evaluación](#7-sobre-la-evaluación)
 
@@ -57,104 +57,63 @@ GFT premiará a las 3 (tres) personas mejor puntuadas en su desafío a través d
 
 ## 2. Desafio de negocio
 
-El desafío GFT Open Finance permitirá a los participantes enfrentar la nueva realidad
-del intercambio de información, confrontando bases de datos de tres instituciones
-diferentes, dos bancos y una compañía de seguros y, a partir de estos datos, desarrollar
-una visión holística mejorada del cliente y a través de la Ciencia de los datos, realizar el
-modelado de la mejor oferta y canasta de productos para estos clientes. ¡Se practicarán
-habilidades de ingeniería de datos y ciencia de datos!
+El desafío GFT Open Finance permitirá a los participantes enfrentar la nueva realidad del intercambio de información, confrontando bases de datos de tres instituciones diferentes, dos bancos y una compañía de seguros y, a partir de estos datos, desarrollar una visión holística mejorada del cliente y a través de la Ciencia de los datos, realizar el modelado de la mejor oferta y canasta de productos para estos clientes. ¡Se practicarán habilidades de ingeniería de datos y ciencia de datos!
 
-Open Finance es la evolución de Open Banking, es el sistema financiero abierto que
-traerá más transparencia y autonomía a los usuarios. Con él, será posible que un
-individuo decida qué instituciones tendrán acceso a su información, para qué fines
-específicos, y período. A medida que evolucione la implementación de Open Finance,
-existirá la posibilidad de compartir datos sobre seguros, inversiones, fondos de
-pensiones y fondos de pensiones. La implementación de Open Finance en Brasil se
-dividió en cuatro fases. Son ellas:
+Open Finance es la evolución de Open Banking, es el sistema financiero abierto que traerá más transparencia y autonomía a los usuarios. Con él, será posible que un individuo decida qué instituciones tendrán acceso a su información, para qué fines específicos, y período. A medida que evolucione la implementación de Open Finance, existirá la posibilidad de compartir datos sobre seguros, inversiones, fondos de pensiones y fondos de pensiones. La implementación de Open Finance en Brasil se dividió en cuatro fases. Ellas son:
 
-1. Apertura de los datos de las instituciones
+1. **Apertura de los datos de las instituciones**
+    - La primera fase, que comenzó el 21 de febrero, fue cuando las instituciones financieras pusieron a disposición del público información básica, como los canales de atención y los servicios ofrecidos.
+2. **Compartir datos de clientes**
+    - Los clientes ahora toman un papel activo en compartir su información, pudiendo, si así lo desean, compartir datos que marcan la diferencia al momento de ofrecer mejores productos (datos de registro, transacciones de cuentas, datos de tarjetas y datos de transacciones de crédito). El paso se implementó el pasado 13 de agosto.
+3. **Presentación de propuesta de inicio de pago y operación de crédito**
+    - En esta fase se inicia la integración de los servicios con las operaciones de pago y el envío de propuestas para operaciones de crédito, que se desarrolla en un entorno unificado.
+4. **Otros datos de productos y servicios**
+    - Esta fase, que se implementará a partir del 15 de diciembre, será responsable de la inclusión de servicios más complejos (como inversiones, pensiones, seguros y cambio de divisas) en el sistema.
 
-La primera fase, que comenzó el 21 de febrero, fue cuando las instituciones financieras
-pusieron a disposición del público información básica, como los canales de atención y
-los servicios ofrecidos.
-
-2. Compartir datos de clientes
-
-Los clientes ahora toman un papel activo en compartir su información, pudiendo, si así
-lo desean, compartir datos que marcan la diferencia al momento de ofrecer mejores
-productos (datos de registro, transacciones de cuentas, datos de tarjetas y datos de
-transacciones de crédito). El paso se implementó el pasado 13 de agosto.
-
-3. Presentación de propuesta de inicio de pago y operación de crédito
-
-En esta fase se inicia la integración de los servicios con las operaciones de pago y el
-envío de propuestas para operaciones de crédito, que se desarrolla en un entorno
-unificado.
-
-4. Otros datos de productos y servicios
-
-Esta fase, que se implementará a partir del 15 de diciembre, será responsable de la
-inclusión de servicios más complejos (como inversiones, pensiones, seguros y cambio
-de divisas) en el sistema.
-
-En una visión financiera abierta, el Banco Minorista (RetailBankEFG) tiene acceso a
-través de financiamiento abierto, con el debido consentimiento de los clientes, a la
-información de la institución financiera (InvestmentBankCDE), un banco de inversión y la
-información de estos clientes sobre otra institución financiera y compañía de seguros
-(InsuranceCompanyABC).
+En una visión financiera abierta, el Banco Minorista (RetailBankEFG) tiene acceso a través de financiamiento abierto, con el debido consentimiento de los clientes, a la información de la institución financiera (InvestmentBankCDE), un banco de inversión y la información de estos clientes sobre otra institución financiera y compañía de seguros (InsuranceCompanyABC).
 
 ## 3. Objetivo
 
-El desafío consiste en agregar las bases de estas instituciones que brinda el nuevo
-entorno Open Finance, procesar los datos y desarrollar modelos de recomendación de
-productos utilizando algoritmos como [Apriori](https://en.wikipedia.org/wiki/Apriori_algorithm) y [AssociationRules](https://en.wikipedia.org/wiki/Association_rule_learning), considerando una confianza en la regla del 80% y un soporte mínimo del 10% con un máximo de 5 antecedentes.
+El desafío consiste en agregar las bases de estas instituciones que brinda el nuevo entorno Open Finance, procesar los datos y desarrollar modelos de recomendación de productos utilizando algoritmos como [Apriori](https://en.wikipedia.org/wiki/Apriori_algorithm) y [AssociationRules](https://en.wikipedia.org/wiki/Association_rule_learning), considerando una confianza en la regla del 80% y un soporte mínimo del 10% con un máximo de 5 antecedentes.
 
-Las personas de la base estarán respaldadas por este modelo y se deberá someter a
-análisis el archivo de respuestas con las recomendaciones, con lo cual se verificará el
-porcentaje de respuestas correctas para cada recomendación.
+Las personas de la base estarán respaldadas por este modelo y se deberá someter a análisis el archivo de respuestas con las recomendaciones, con lo cual se verificará el porcentaje de respuestas correctas para cada recomendación.
 
-Recuerde que muchas personas se quedarán sin una recomendación.
+Recuerda que muchas personas se quedarán sin una recomendación.
 
 ## 4. Tecnologias aplicadas
 
-Para este desafío se utilizarán los siguientes servicios disponibles en IBM Cloud:
-Watson Studio , también conocido como Cloud Pak for Data as a Service. Este
-servicio permite el uso de una variedad de herramientas relacionadas con la
-ciencia de datos, incluida la ejecución de Jupyter Notebooks con procesadores
-en la nube.
-SPSS Modeler Flow
-
 Para este desafío se utilizarán los siguientes servicios de IBM Cloud:
 
-- [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio), también conocido como Cloud Pak for Data as a Service. Este servicio permite el uso de una variedad de herramientas relacionadas con la ciencia de datos, incluida la ejecución de Jupyter Notebooks con procesadores en la nube.
+-  [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio), también conocido como Cloud Pak for Data as a Service. Este servicio permite el uso de una variedad de herramientas relacionadas con la ciencia de datos, incluida la ejecución de Jupyter Notebooks con procesadores en la nube.
+-  SPSS Modeler Flow
 
 ## 5. Desarrollo de la Solución
 
 ### 5.1. Pre-requisitos
 
-Para realizar este desafío, debe cumplir con los siguientes requisitos previos:
+Para realizar este desafío, deberás cumplir con los siguientes requisitos previos:
 
-- Registrarse en la [Maratón Behind the Code](https://maratona.dev/?register=true) y confirmar su correo electrónico de registro;
+- Registrarte en la [Maratón Behind the Code](https://maratona.dev/?register=true) y confirmar su correo electrónico de registro;
 - Tener una [cuenta de IBM Cloud](https://ibm.biz/Bdf8dW), que puede ser Lite o Pay-As-You-Go (no es necesario registrarse para el evento con la misma dirección de correo electrónico utilizada para crear su cuenta de IBM Cloud).
 
 ### 5.2. Resumen de Tareas
 
-1. Cree una instancia de los servicios de desafío en IBM Cloud: Object Storage y Watson Studio (opcionales);
-2. Explore y trate las bases de datos disponibles;
-3. Cree reglas de asociación basadas en los datos propuestos;
-4. Creae recomendaciones de productos para los clientes, basadas en reglas de asociación creadas;
-5. Cambie el [archivo de respuesta](../../assets/data/ANSWERS.csv) agregando las recomendaciones creadas junto con sus niveles de confianza;
-6. Submita su solución en la [página del desafío](https://maratona.dev/challenge/3).
+1. Crea una instancia de los servicios de desafío en IBM Cloud: Object Storage y Watson Studio (opcionales);
+2. Explora y trabaja con las bases de datos disponibles;
+3. Crea reglas de asociación basadas en los datos propuestos;
+4. Crea recomendaciones de productos para los clientes, basadas en reglas de asociación creadas;
+5. Cambia el [archivo de respuesta](../../assets/data/ANSWERS.csv) agregando las recomendaciones creadas junto con sus niveles de confianza;
+6. Envía tu solución en la [página del desafío](https://maratona.dev/challenge/3).
 
 ### 5.3. Desarollo
 
 Los conjuntos de datos [InvestmentBankCDE](../../assets/data/InvestmentBankCDE.csv) y [RetailBankEFG](../../assets/data/RetailBankEFG.csv) contienen datos de compras de clientes anteriores, al igual que el conjunto de datos [InsuranceCompanyABC](../../assets/data/InsuranceCompanyABC.csv), que también incluye algunos datos demográficos de sus clientes.
 
-El desafío es utilizar un algoritmo de aprendizaje automático de aprendizaje no supervisado, como los de [Reglas de Asociación](https://en.wikipedia.org/wiki/Association_rule_learning#Algorithms), para crear recomendaciones de productos para los clientes de las bases de datos. Se deben utilizar los datos de clientes recopilados de las tres instituciones y se pueden hacer hasta tres recomendaciones de productos. Para recomendaciones, debe considerar una **confianza de regla del 80%** y un **soporte mínimo del 10%**, con un máximo de 5 antecedentes.
+El desafío es utilizar un algoritmo de aprendizaje automático de aprendizaje no supervisado, como los de [Reglas de Asociación](https://en.wikipedia.org/wiki/Association_rule_learning#Algorithms), para crear recomendaciones de productos para los clientes de las bases de datos. Se deben utilizar los datos de clientes recopilados de las tres instituciones y se pueden hacer hasta tres recomendaciones de productos. Para recomendaciones, deberás considerar una **confianza de regla del 80%** y un **soporte mínimo del 10%**, con un máximo de 5 antecedentes.
 
-Su tarea es analizar los datos y crear un modelo para recomendaciones a partir de esos datos. Las recomendaciones (hasta 3 por cliente) deben guardarse en el archivo [ANSWERS.csv](../../assets/data/ANSWERS.csv). Tenga en cuenta que no todos los clientes necesitan necesariamente una recomendación.
+Tu tarea es analizar los datos y crear un modelo para recomendaciones a partir de esos datos. Las recomendaciones (hasta 3 por cliente) deben guardarse en el archivo [ANSWERS.csv](../../assets/data/ANSWERS.csv). Ten en cuenta que no todos los clientes necesitan necesariamente una recomendación.
 
-Los nombres de los productos en las recomendaciones deben aparecer exactamente como están en las columnas del conjunto de datos, los siguientes:
+Los siguientes nombres de los productos en las recomendaciones deben aparecer **exactamente** como están en las columnas del conjunto de datos:
 
 ```python
 [
@@ -185,13 +144,13 @@ Los nombres de los productos en las recomendaciones deben aparecer exactamente c
 
 ## 6. Envío
 
-Una vez tenga el modelo listo, el último paso es realizar el envío. Recuerde que **sólo se aceptará un envío para el desafío**, así que pruébelo bien antes de enviarlo.
+Una vez tengas el modelo listo, el último paso es realizar el envío. Recuerda que **sólo se aceptará un envío para el desafío**, así que pruébalo bien antes de enviarlo.
 
-Para entregar el desafío, debe cambiar el archivo con la tabla de respuestas disponible en ese repositorio, completando el valor de las columnas de recomendación y confianza, solo cuando ocurra una recomendación. Evaluaremos su solución en base a las respuestas en el archivo CSV.
+Para entregar el desafío, debes cambiar el archivo con la tabla de respuestas disponible en ese repositorio, completando el valor de las columnas de recomendación y confianza, sólo cuando ocurra una recomendación. Evaluaremos tu solución en base a las respuestas en el archivo CSV.
 
-Para enviar, debe acceder a la página de desafío: [https://maratona.dev/challenge/3](https://maratona.dev/challenge/3) y enviar el archivo CSV con las respuestas, junto con un archivo `.zip`, de hasta 10 MB, que contiene el código fuente de la solución (recuerde eliminar dependencias y conjuntos de datos para que no ocupen espacio). La página se probará el archivo CSV para verificar que se encuentra en el formato correcto.
+Para realizar el envío, debes acceder a la [página de desafío](https://maratona.dev/challenge/3) y enviar el archivo CSV con las respuestas, junto con un archivo `.zip`, de hasta 10 MB, conteniendo el código fuente de la solución (recuerda eliminar dependencias y conjuntos de datos para que no ocupen espacio). La página probará el archivo CSV para verificar que se encuentra en el formato correcto.
 
-Podrá seguir el estado de la entrega accediendo a la [página del desafío](https://maratona.dev/challenge/3), iniciando sesión en su cuenta.
+Podrás seguir el estado de la entrega accediendo a la [página del desafío](https://maratona.dev/challenge/3), iniciando sesión en tu cuenta.
 
 ## 7. Sobre la evaluación
 
